@@ -88,7 +88,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">About Hiveconomy</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're passionate about democratizing personal finance and helping individuals 
+              We&apos;re passionate about democratizing personal finance and helping individuals 
               build sustainable wealth through smart financial planning and education.
             </p>
           </div>
@@ -98,7 +98,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Mission</h3>
               <p className="text-lg text-gray-600 mb-6">
                 At Hiveconomy, we believe that financial literacy should be accessible to everyone. 
-                We're building innovative tools that simplify personal finance, budgeting, and investing, 
+                We&apos;re building innovative tools that simplify personal finance, budgeting, and investing, 
                 helping you make informed decisions and achieve your financial goals.
               </p>
               
@@ -278,7 +278,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Future Innovation</h3>
               <p className="text-gray-600 mb-6">
-                We're constantly working on new tools and features to enhance 
+                We&apos;re constantly working on new tools and features to enhance 
                 your dividend investing experience.
               </p>
               <div className="space-y-3">
