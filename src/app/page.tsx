@@ -40,14 +40,9 @@ export default function Home() {
             invest wisely, and plan for the future. Take control of your money and build lasting wealth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <button 
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-            >
-              Get Free Finance Guide 💰
-            </button>
             <a
               href="#about" 
-              className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors text-lg"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Learn More
             </a>
