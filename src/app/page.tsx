@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -314,12 +315,13 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-white">About</a></li>
                 <li><a href="#" className="hover:text-white">Contact</a></li>
-                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
+                <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="hover:text-white">Terms of Service</Link></li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Hiveconomy. All rights reserved.</p>
+            <p>&copy; 2024 Hiveconomy. All rights reserved. | <Link href="/privacy" className="text-blue-400 hover:text-blue-300 ml-2">Privacy Policy</Link> | <Link href="/terms" className="text-blue-400 hover:text-blue-300 ml-2">Terms of Service</Link></p>
           </div>
         </div>
       </footer>
